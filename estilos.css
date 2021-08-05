@@ -1,0 +1,49 @@
+.fondo__imagen {
+  background: url("images/fondo1.png") no-repeat center center fixed;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+}
+
+.pie__color {
+  background-color: black;
+}
+
+.pie__color--texto {
+  color: red;
+}
+
+.encabezado__letra {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+
+.texto__centrado {
+  text-align: center;
+}
+
+p {
+  color: red;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 4em;
+}
+
+h5 {
+  font-size: 5em;
+}
+
+/*# sourceMappingURL=estilos.css.map */

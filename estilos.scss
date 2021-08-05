@@ -1,0 +1,47 @@
+    .fondo__imagen {
+        background: url('images/fondo1.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        position: relative;
+    }
+
+    .pie__color {
+        background-color: black;
+    }
+
+
+    .pie__color--texto {
+        color: red;
+    }
+
+    .encabezado__letra {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+    }
+
+    .texto__centrado {
+        text-align: center;
+    }
+
+    // operaciones y variable clase 12  //
+
+    $color: rojo;
+
+    p {
+        @if ($color==azul) {
+            color: blue
+        }
+
+        @else {
+            color: red
+        }
+    }
+
+
+    @for $i from 1 through 5 {
+        h#{$i} {
+            font-size: $i * 1em;
+        }
+    }
