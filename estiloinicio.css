@@ -1,0 +1,145 @@
+p {
+  color: mediumvioletred;
+  border: 1px solid black;
+  padding: 25px;
+  background-color: lightblue;
+}
+
+
+
+table {
+  background: mediumvioletred;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: serif;
+  text-decoration: underline;
+
+}
+
+.amarillo { 
+  color: yellow; 
+}
+
+.azul {
+  color: blue;
+}
+
+.verde {
+  color: green;
+}
+
+#heading1 {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#heading2 {
+  font-family: monospace;
+ font-size: 20px;
+}
+
+#heading3 {
+  font-family: monospace;
+ font-size: 20px;
+}
+
+#heading4 {
+  font-family: monospace;
+ font-size: 20px;
+}
+
+a {
+  color:  darkorange;
+  text-underline-position: under;
+}
+
+body{ 
+  background-image: url('images/inicio.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center; 
+  background-size: cover;
+}
+
+.izquierda {
+    float: left;
+}
+
+.centro {
+  float: center;
+}
+
+.derecha {
+  float: right;
+}
+
+.one {
+  list-style: circle;
+  font-size: 40px;
+}
+
+.a {
+  font-size: 15px;
+  list-style: square;
+  padding: 5% ;
+  background-color: lightblue;
+  border-width: 1em;
+  border: 1px solid black
+}
+
+
+ul#menu {
+ background: #whitesmoke;
+ width: 940px;
+ float:left;
+ padding: 5px;
+}
+  
+ul#menu li {
+ color: #fff;
+ float: left;
+ list-style: none;
+ margin: 0% 5%;
+}
+  
+ul#menu li:hover{
+ color: #aaa073;
+ cursor:pointer;
+}
+  
+ul#menu ul {
+ display: none;
+ position: absolute;
+ top: 49px;
+ background: #333;
+ color: #fff;
+ padding: 5px 0px 5px 5px;
+ margin: 0;
+ }
+  
+ul#menu ul li{
+ float: left;
+ color: #fff;
+ width:100%;
+ margin:2% 0%;
+}
+ 
+ 
+ul#menu ul li a{
+ color: #red;
+}
+  
+ul#menu ul li a:hover{
+ color: #aaa073;
+ cursor:pointer;
+}
+  
+ul#menu li:hover ul ul,ul#menu li:hover ul ul ul,ul#menu li.iehover ul ul,ul#menu li.iehover ul ul ul {
+ display: none;
+ cursor:pointer;
+}
+  
+ul#menu li:hover ul,ul#menu ul li:hover ul,ul#menu ul ul li:hover ul,ul#menu li.iehover ul,ul#menu ul li.iehover ul,ul#menu ul ul li.iehover ul {
+ display: block;
+ cursor:pointer;
+}
